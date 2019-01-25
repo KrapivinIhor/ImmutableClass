@@ -6,7 +6,7 @@ public class Ferrari {
     private final int horsePower;
     private final double pPM;
 
-    public Ferrari(int speed, String color, int horsePower, double pPM) {
+    public Ferrari(final int speed, final String color, final int horsePower, final double pPM) {
         this.speed = speed;
         this.color = color;
         this.horsePower = horsePower;
